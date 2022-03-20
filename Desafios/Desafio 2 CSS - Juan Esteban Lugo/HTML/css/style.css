@@ -1,0 +1,66 @@
+/* 
+Reset Estilos */
+
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    
+}
+
+body{
+    font-family:'Montserrat'
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+
+/* top Bar */
+
+.topBar {
+background-color:#4649d6;
+}
+
+.topBar__contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.topBar__contact a {
+    font-size: 0.8rem;
+    color:#fff;
+}
+.topBar__contact i{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+/* menu */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__logo{
+    width: 150px;
+}
+.menu ul li a:hover {
+border-bottom: solid 1px;
+}
+

@@ -55,6 +55,7 @@ background-color:#4649d6;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 0 2rem 0;
 }
 
 .menu__logo{
@@ -64,3 +65,69 @@ background-color:#4649d6;
 border-bottom: solid 1px;
 }
 
+/* info servicio */
+
+.info {
+    display: flex;
+    background-color: rgba(161, 158, 158, 0.247);
+    padding: 2rem;
+}
+
+.info__servicio h1{
+    font-size: 2.0rem;
+    padding:1rem 0 1.5rem 0;
+    color :#4649d6;
+}
+
+.info__servicio p {
+    font-weight: 200;
+    color: rgb(41, 44, 48);
+}
+
+.info div img {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.info--color{
+    background-color: rgb(255, 255, 255);
+}
+
+/* parallax */
+
+.parallax {
+    background-image: url(../img/medico.jpg);
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top:100px;
+    color: midnightblue;
+}
+.parallax p {
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.footer{
+    background-color:#0f1047;
+}
+
+.footer__logo img{
+    display: block;
+    margin: auto;
+    width: 160px;
+
+}
+
+.footer__redes p {
+    color: seashell;
+    text-align: center;
+}

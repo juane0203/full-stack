@@ -1,0 +1,62 @@
+*{
+    margin:0 aurto;
+    padding: 0;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns:1fr; /*definir espacio de columnas*/ /*fr - fracción*/
+    grid-template-rows:80px 600px 60px ; /*definir espacio de filas */ /*se puede agregar la propiedad auto*/ 
+    grid-template-areas: 
+    "encabezado"
+    
+    ;
+}
+
+
+.container-grid1{
+    display: grid;
+    grid-template-columns:10% 90%; /*definir espacio de columnas*/ /*fr - fracción*/
+    grid-template-rows:auto; /*definir espacio de filas */ /*se puede agregar la propiedad auto*/ 
+    grid-template-areas: /*definir como van organizadas las grid area*/
+    "encabezado encabezado"
+    "sidebar contenido"
+    "pie pie";
+    gap: 0.5rem;
+}
+
+.header{
+    background-color: blue;
+    grid-area: encabezado;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "logo menu1";
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.main{
+    background-color: blueviolet;
+    grid-area:contenido ;
+}
+
+.aside{
+    background-color: chartreuse;
+    grid-area: sidebar;
+}
+.footer{
+    background-color: brown;
+    grid-area: pie;
+}
+
+.gridlogo{
+    grid-area:logo;
+}
+.gridmenu{
+    display: flex;
+    grid-area:menu1;
+}
+.gridmenu li{
+    padding-right:10px ;
+    list-style: none;
+}

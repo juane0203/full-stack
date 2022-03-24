@@ -8,6 +8,8 @@ Reset Estilos */
     
 }
 
+/*Globales */
+
 body{
     font-family:'Montserrat'
 }
@@ -26,25 +28,40 @@ ul li a{
     text-decoration: none;
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+}
 
 /* top Bar */
 
-.topBar {
-background-color:#4649d6;
+.topBarcolor{
+    background-color:#4649d6;
 }
 
-.topBar__contact{
+.topBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
 }
 
-.topBar__contact a {
+.topBar a {
     font-size: 0.8rem;
     color:#fff;
 }
-.topBar__contact i{
+.topBar i{
     font-size: 1.5rem;
     padding: 10px;
 }
@@ -68,14 +85,11 @@ border-bottom: solid 1px;
 /* info servicio */
 
 .info {
-    display: flex;
     background-color: rgba(161, 158, 158, 0.247);
-    padding: 2rem;
 }
 
 .info__servicio h1{
     font-size: 2.0rem;
-    padding:1rem 0 1.5rem 0;
     color :#4649d6;
 }
 

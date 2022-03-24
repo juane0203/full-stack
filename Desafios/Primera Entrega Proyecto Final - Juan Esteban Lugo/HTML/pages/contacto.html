@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="crossorigin="anonymous"referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <title>Servicios Salud Domiciliaria</title>
+</head>
+<body>
+    <header>
+        <!--Inicio top bar-->
+        <div class="topBarcolor">
+            <nav class=" container topBar">
+                <ul>
+                    <li><a href="mailto:contacto@serviciossalud.com">contacto@serviciossalud.com</a></li>
+                    <li><a href="tel:+573194607794">+57 319 460 7794</a></li>
+                </ul>
+                <div>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </nav>
+        </div>
+        <!--Fin top bar-->
+        <!-- Inicio logo+ nav -->
+        <nav class=" container menu">
+            <img src="../img/logo.png" width="150px">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/servicios.html">Servicios</a></li>
+                <li><a href="../pages/beneficios.html">Beneficios</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="tel:+573194607794">Llamar ahora</a></li>    
+            </ul>
+         </nav>   
+        <!-- fin logo + nav -->
+    </header>
+    <main>
+        <seccion>
+            <div class="fondo center">
+                <div class="intro">
+                    <h1>Contacto</h1>
+                </div>
+            </div>
+        </div>
+        <seccion>
+            <div class="container row">
+                <div class="col">
+                    <form class="form" action="">
+                        <legend>Contactanos</legend>
+                        <input type="text" placeholder="Nombre" name="nombre" id="nombre" required>
+                        <br />
+                         <input type="text" placeholder="Apellido" name="apellido" id="apellido" required>
+                        <br />
+                        <input type="email" placeholder="Email" name="email" id="email" required>
+                        <br />
+                        <div>¿Que servicio te interesa?</div>
+                        <select name="servicios" id="servicios">
+                            <option></option>
+                            <option value="medico">Medico general domicilio</option>
+                            <option value="pediatra">Medico Pediatra domicilio</option>
+                            <option value="enfermera">Enfermera domicilio</option>
+                        </select>
+                        <br />
+                        <label for="mensaje">Mensaje</label>
+                        <br />
+                        <textarea name="mensaje" id="mensaje" cols="20" rows="25" >
+                        </textarea>
+                        <br />
+                        <div>Acepta politica de tratamiento de datos</div>
+                        <input type="checkbox" name="acepta" value="1" id="acepta">
+                        <input type="submit" value="Enviar información">
+                        </form>
+                </div> 
+                <div class="col">
+                    <img src="../img/nosotros.jpg" width="600px" >
+                </div>   
+            </div>
+        </seccion>
+        <section class="center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.51641065205!2d-74.24789233957917!3d4.648283717631996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses-419!2sco!4v1648142058223!5m2!1ses-419!2sco" width="1230" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        
+    </main>
+    <!--Inicio Footer-->
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="../img/Logo-blanco.png" width="150px">
+        </div>
+        <div class="footer__logo">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class=" container row__footer footer__Copyright">
+            <p>ADOM © Copyright 2021 by Juan Lugo</p>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="pages/servicios.html">Servicios</a></li>
+                    <li><a href="pages/beneficios.html">Beneficios</a></li>
+                    <li><a href="pages/contacto">Contacto</a></li>  
+                </ul>
+            </nav>
+        </div> 
+    </footer>
+      <!--Fin footer-->
+</body>
+</html>

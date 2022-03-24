@@ -1,0 +1,213 @@
+/* 
+Reset Estilos */
+
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    
+}
+
+/*Globales */
+
+body{
+    font-family:'Montserrat'
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0 70px 0;
+}
+
+.row__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+h1{
+    font-size: 42px;
+}
+
+h2{
+    font-size: 38px;
+    font-weight: 300;
+}
+
+/* top Bar */
+
+.topBarcolor{
+    background-color:#4649d6;
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.topBar a {
+    font-size: 0.8rem;
+    color:#fff;
+}
+.topBar i{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+/* menu */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+.menu ul li a:hover {
+border-bottom: solid 1px;
+}
+/**/
+.fondo{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1002%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(187%2c 219%2c 253%2c 0.45)'%3e%3c/rect%3e%3cpath d='M-18.03 533.97C141.7 532.15 362.83 354.41 595.3 354.77 827.76 355.13 795.35 642.87 901.96 669.02' stroke='rgba(51%2c 121%2c 194%2c 0.87)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-71.99 348.15C60.75 343.57 217.04 129.28 414.82 135.35 612.61 141.42 544.33 566.88 658.23 653.57' stroke='rgba(51%2c 121%2c 194%2c 0.87)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-16.18 420.05C122.11 415.5 230.93 199.97 492.35 201.65 753.76 203.33 832.34 630.4 1000.87 663.01' stroke='rgba(51%2c 121%2c 194%2c 0.87)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-81.62 188.73C80.51 192.82 277.17 416.3 522.97 423.93 768.76 431.56 741.44 565.94 825.26 569.68' stroke='rgba(51%2c 121%2c 194%2c 0.87)' stroke-width='2'%3e%3c/path%3e%3cpath d='M-197.31 72.32C-4.68 76.92 226.76 335.56 522.94 346.72 819.12 357.88 778.66 552.67 883.07 560.52' stroke='rgba(51%2c 121%2c 194%2c 0.87)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1002'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro{
+    padding: 70px 0 70px 20px;
+}
+
+.intro p{
+    line-height: 1.5rem;
+    padding:2rem 2rem 3rem 0;
+}
+
+.boton{
+    padding: 20px 15px 20px 15px ;
+    border-radius: 20px;
+    background-color: #0f1047;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px 10px 10px 10px;
+}
+
+.boton:hover{
+    background-color: #fff;
+    border: solid 1px;
+    border-color: #0f1047;
+    color: #4649d6;
+
+}
+
+/* parallax */
+
+.parallax {
+    background-image: url(../img/medico.jpg);
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top:100px;
+    color: rgb(255, 255, 255);
+}
+.parallax p {
+    padding-top: 1.5rem;
+    text-align: center;
+    line-height:2rem;
+    color:#fff
+    
+}
+
+
+/*Formulario */
+
+.form input{
+    border-radius: 20px;
+    padding: 15px 6px 15px 6px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.form select{
+    border-radius: 20px;
+    padding: 15px 6px 15px 6px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.form textarea{
+    border-radius: 20px;
+    padding: 15px 6px 15px 6px;
+    margin-bottom: 10px;
+    width: 400px;
+    max-height: 200px;
+}
+
+
+/*Footer */
+.footer{
+    background-color:#0f1047;
+}
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__logo a{
+    font-size: 25px;
+    color: #fff;
+    padding:0 30px 0 0;
+}
+
+.footer__Copyright p{
+    color: #fff;
+
+}
+.footer__Copyright a{
+    color: antiquewhite;
+   
+}
